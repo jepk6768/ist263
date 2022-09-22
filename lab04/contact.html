@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+    </head>
+    <body>
+        <h1>Contact</h1>
+        <p>James Korenman<br>
+        131 Redfield Pl<br>
+        Syracuse, NY, 13210</p>
+        <h3><a href="mailto:jkorenma@syr.edu">James Korenman Email</a></h3>
+        
+        <p><a href="https://www.linkedin.com/in/jameskorenman/">My LinkedIn Profile
+        <img src="../images/LI-In-Bug.png" alt="My LinkedIn Profile" width="85" height="75">
+        </a></p>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.173895501927!2d-76.12410458487955!3d43.037772579147195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f372e76ebe33%3A0xfcb6e2490eb35380!2s131%20Redfield%20Pl%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1663254918041!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h1>Tell Me About Yourself</h1>
+        <form method="post" action="https://formspree.io/f/mnqrpell">
+            <label for="fullname">Please Enter Your Full Name:</label>
+            <input type="text" id="fullname" name="fullname"><br><br>
+            <label for="description">Tell Us a Little About Yourself</label><br><br>
+            <textarea id="description" name="description"></textarea><br>
+            <label for="age">Please Indicate Your Age Range</label><br>
+            <label for="21+">21+</label>
+            <input type="radio" id="21+" name="age">
+            <label for="under21">Under 21</label>
+            <input type="radio" id="under21" name="age"><br>
+            <select id="grade" name="grade">
+                <option value="freshman">Freshman</option>
+                <option value="sophomore">Sophomore</option>
+                <option value="junior">Junior</option>
+                <option value="senior">Senior</option>
+            </select><br><br><br>
+            <input type="submit" value="Send This Form">
+        </form>
+    </body>
+</html>
+
+
