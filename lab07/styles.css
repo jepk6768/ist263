@@ -1,0 +1,47 @@
+body {
+    background-color: #87A2FB;
+    color: #6F38C5;
+}
+
+.linkedin {
+    color:#ADDDD0;
+}
+
+.linkedin:visited {
+    color:#ADDDD0;
+}
+
+h1 {
+    color:#EEEEEE;
+}
+
+nav > a  {
+    border-right: solid 1px #000000;
+    padding: 5px;
+    line-height: 2px;
+}
+
+nav > a:last-of-type {
+    border-right: none;
+  }
+
+nav {
+    background-color: #EEEEEE; 
+}
+
+nav a {
+    color:#6F38C5;
+}
+
+nav {
+    text-align: center  ;
+}
+
+nav a:hover {
+    background-color: #ADDDD0;
+}
+
+nav {
+    padding: 10px;
+    margin-bottom: 10px;
+}
