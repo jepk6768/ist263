@@ -1,0 +1,27 @@
+p {
+    color: #eb7a34;
+    background-color: #005aeb;
+    border-style: solid;
+    border-color: #eb7a34;
+    padding:20px;
+}
+
+/* changes color of visited link */
+a:visited {
+    color: #00ff00;
+}
+
+/* changes color when cursor hovers over it */
+a:hover {
+    color: #b024f5;
+}
+
+body {    
+    background-image: url(../images/Otto_the_Orange_logo.svg.png)
+}
+
+.second {
+    border: 2px solid red;
+    padding: 10px;
+
+}
