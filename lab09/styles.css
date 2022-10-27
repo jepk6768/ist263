@@ -1,0 +1,70 @@
+body {
+    background-color: #87A2FB;
+    color: #6F38C5;
+}
+
+.linkedin {
+    color:#ADDDD0;
+}
+
+.linkedin:visited {
+    color:#ADDDD0;
+}
+
+h1 {
+    color:#EEEEEE;
+}
+
+nav > a  {
+    border-right: solid 1px #000000;
+    padding: 5px;
+    line-height: 2px;
+}
+
+nav > a:last-of-type {
+    border-right: none;
+  }
+
+nav {
+    background-color: #EEEEEE; 
+}
+
+nav a {
+    color:#6F38C5;
+}
+
+nav {
+    text-align: center  ;
+}
+
+nav a:hover {
+    background-color: #ADDDD0;
+}
+
+nav {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.heading {text-align: center;}
+.subheading {text-align: center;}
+
+.cybersecurity, .dj, .skiing, .sql, .stickshift{
+    width: 30%;
+}
+
+.flexbox2 {display:flex; padding: 20px;}
+.icon {display: flex;
+       flex: 3;
+       justify-content: space-evenly;
+}
+
+.skiing {width: 30%;}
+
+.other {
+    background-color: #1ee238;
+    border: 1px solid #F0A500;
+    border-radius: 5px;
+    padding: 10px;
+    flex: 1;
+}
