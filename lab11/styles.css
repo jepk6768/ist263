@@ -3,12 +3,13 @@ body {
     color: #000000;
 }
 
+
 .linkedin {
-    color:#ADDDD0;
+    color:#000000;
 }
 
 .linkedin:visited {
-    color:#ADDDD0;
+    color: #F0A500;
 }
 
 h1 {
@@ -83,6 +84,10 @@ nav {
     left: 10px;
 }
 
-#footerlink {
+.footerlink {
     color: #000000;
+}
+
+.skip:visited {
+    color: #EEEEEE;
 }
