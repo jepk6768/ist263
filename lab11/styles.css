@@ -72,7 +72,7 @@ nav {
 }
 
 .skip {
-    background-color: #f19d01;
+    background-color: #000000;
     padding: 5px;
     border: 1px solid black;
     position: absolute;
@@ -81,4 +81,8 @@ nav {
 }
 .skip:focus {
     left: 10px;
+}
+
+.footerlink {
+    color: #000000;
 }
