@@ -99,3 +99,7 @@ nav {
 .linkedinprofile:visited {
     color: #EEEEEE;
 }
+
+.email, .linkedinprofile {
+    color: #EEEEEE;
+}
