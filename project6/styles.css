@@ -89,6 +89,7 @@
     position: absolute;
     top: 30px;
     left: -999px; /* pushes it off screen */
+    color: white;
 }
 .skip:focus {
     left: 10px;
