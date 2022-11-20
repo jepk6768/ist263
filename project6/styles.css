@@ -100,6 +100,11 @@
 
 .homelink,.contactlink,.howtolink {
     color: white;
+    
+}
+
+.homelink:visited, .contactlink:visited, .howtolink:visited {
+    color: white;
 }
 
 .aboutrow, .aboutrow2, .aboutrow3, .aboutrow4 {
